@@ -1,0 +1,32 @@
+.wrapper-img{
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+
+.letra{
+font-family:"Times New Roman", Times, serif;
+font-style: oblique;
+font-size: 35px;
+}
+
+#alinhament{
+
+  display:flex;
+justify-content:space-around;
+}
+
+#alin-back{
+  width: 150px;
+  text-align: center;
+}
+
+#alin-go{
+width: 150px;
+  text-align: center;
+}
+
+#tamanhoH2{
+  font-size:200px;
+  color:rgb(85, 5, 92);
+}

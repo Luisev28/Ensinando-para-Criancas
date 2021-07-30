@@ -1,0 +1,7 @@
+{
+  "name": "sonsParaCriancas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

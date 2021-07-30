@@ -1,0 +1,23 @@
+
+  
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+         
+        <ion-img id="imglogo" src="assets\icon\logosons.png"></ion-img>
+     
+       
+      <div id="bord_input_observation">
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
+            <ion-item  routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
+              <ion-label color="dark">{{ p.title }}</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </div>
+        </ion-list>
+        
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+
+
